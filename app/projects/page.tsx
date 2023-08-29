@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function Page(): JSX.Element {
+/*export default function Page(): JSX.Element {
     return (
         <>
             <div className="ml-10 mr-10 mt-20 flex flex-wrap justify-center gap-6 text-center md:gap-10">
@@ -19,4 +19,8 @@ export default function Page(): JSX.Element {
             </div>
         </>
     );
+} */
+
+export default function Page(): JSX.Element {
+    return <></>;
 }

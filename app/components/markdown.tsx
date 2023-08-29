@@ -1,4 +1,4 @@
-import Link from "next/link";
+/* import Link from "next/link";
 import React from "react";
 
 export function CustomLink({
@@ -21,10 +21,10 @@ export function CustomLink({
     );
 }
 
-export function Table(props) {
+export function Table(props: any): JSX.Element {
     return (
         <div className={styles["table-container"]}>
             <table {...props}>{props.children}</table>
         </div>
     );
-}
+} */

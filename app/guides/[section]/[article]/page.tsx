@@ -1,6 +1,6 @@
 import React from "react";
 import fs from "fs";
-import { CustomLink, Table } from "../../../components/markdown";
+// import { CustomLink, Table } from "../../../components/markdown";
 import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
 import Link from "next/link";
@@ -59,8 +59,8 @@ export default function Page({
             <ReactMarkdown
                 remarkPlugins={[remarkGfm]}
                 components={{
-                    a: CustomLink,
-                    table: Table,
+                    // a: CustomLink,
+                    // table: Table,
                     h1: ({ node, ...props }) => (
                         <h1
                             {...props}
@@ -86,7 +86,7 @@ export default function Page({
                         />
                     ),
                     code: ({ node, ...props }) => (
-                        <code {...props} className="bg-polar-1" inline="true" />
+                        <code {...props} className="bg-polar-1" />
                     ),
                 }}
                 className="prose mx-auto mt-8 max-w-5xl leading-8"
