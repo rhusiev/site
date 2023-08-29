@@ -27,6 +27,11 @@ const nextConfig = {
                 destination: "https://discordapp.com/users/689766912875692130",
                 permanent: false,
             },
+            {
+                source: "/0",
+                destination: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                permanent: false,
+            },
         ];
     },
     eslint: {
