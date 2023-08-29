@@ -48,7 +48,6 @@ export default function Page({
                                         <code
                                             {...props}
                                             className="bg-polar-3"
-                                            inline="true"
                                         />
                                     ),
                                 }}
