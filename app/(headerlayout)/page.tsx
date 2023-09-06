@@ -3,8 +3,8 @@ import { FaHtml5, FaCss3Alt, FaJsSquare } from "react-icons/fa";
 import { SiNextdotjs, SiTailwindcss } from "react-icons/si";
 import { DiPython, DiDocker, DiLinux } from "react-icons/di";
 import Image from "next/image";
-import pytorch from "../public/icons/pytorch.svg";
-import fastapi from "../public/icons/fastapi.svg";
+import pytorch from "../../public/icons/pytorch.svg";
+import fastapi from "../../public/icons/fastapi.svg";
 
 const iconClassNames =
     "transition duration-100 hover:scale-110 hover:-translate-y-1";
