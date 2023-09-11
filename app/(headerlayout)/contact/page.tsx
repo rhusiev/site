@@ -1,17 +1,18 @@
 "use client";
 import React from "react";
-import Link from "next/link";
-import Image from "next/image";
-import { ImageCard } from "../components/card";
+import { ImageCard, MultiaccountImageCard } from "../components/card";
 
 export default function Page(): JSX.Element {
     return (
         <>
             <div className="grid grid-cols-3 justify-center gap-6 text-center md:flex md:flex-row md:justify-center md:gap-10 md:text-center mt-20">
-                <ImageCard
+                <MultiaccountImageCard
                     src="/icons/github.png"
                     alt="GitHub"
-                    href="/github"
+                    texts={[
+                        ["1", "/github1"],
+                        ["2", "/github2"],
+                    ]}
                 />
                 <ImageCard
                     src="/icons/gitlab.png"
