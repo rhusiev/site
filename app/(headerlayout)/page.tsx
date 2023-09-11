@@ -18,14 +18,15 @@ export default function Page(): JSX.Element {
                         Hi! I'm Radomyr
                     </h1>
                     <p className="text-3xl font-medium leading-tight lg:text-5xl lg:leading-tight">
-                        Applied Science student at Ukrainian Catholic University
+                        Applied Science student at
                     </p>
+                    <p className="text-2xl lg:text-4xl">Ukrainian Catholic University</p>
                 </div>
                 <h1 className="text-6xl font-bold lg:text-8xl">Me</h1>
             </div>
             <div className="mt-40 flex flex-col items-center justify-center gap-10">
                 <h1 className="text-3xl font-bold lg:text-5xl">Used</h1>
-                <div className="flex flex-row items-center justify-center gap-10">
+                <div className="flex flex-col items-center justify-center gap-10 md:flex-row">
                     <div className="flex flex-row items-center justify-center gap-4">
                         <FaHtml5 size={50} className={iconClassNames} />
                         <FaCss3Alt size={50} className={iconClassNames} />
@@ -53,19 +54,6 @@ export default function Page(): JSX.Element {
                         <DiLinux size={50} className={iconClassNames} />
                     </div>
                 </div>
-                <p className="text-xl font-medium leading-tight text-sky-400 lg:text-2xl lg:leading-tight">
-                    For each thing used make a tag that can be used in articles
-                    about each project. Then every project will have a page with
-                    all tools used mentioned as icons and then explained.
-                    <br />
-                    Also add my servers to the list of projects.
-                    <br />
-                    Mb add a color or smth to indicate familiarity with each
-                    <br />
-                    Add a section here about projects/add just text that how I
-                    used tools can be viewed in my [[Projects]]. And then add
-                    also a "Project" to header
-                </p>
             </div>
         </div>
     );
