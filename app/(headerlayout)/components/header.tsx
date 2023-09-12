@@ -16,7 +16,7 @@ export default function Header(opts: { logo_path: string }): JSX.Element {
             </Link>
             <div className="flex flex-col items-start gap-6 md:ml-auto md:mr-20 md:flex-row md:gap-4">
                 <TextMenuItem text="Projects" href="/projects" />
-                <TextMenuItem text="Conspectus" href="/conspectus" />
+                <TextMenuItem text="Conspectus" href="https://conspectus.r1a.nl" />
                 <TextMenuItem text="Contact" href="/contact" />
                 <TextMenuItem text="Guides" href="/guides" />
             </div>

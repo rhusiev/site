@@ -3,11 +3,6 @@ const nextConfig = {
     async redirects() {
         return [
             {
-                source: "/conspectus",
-                destination: "https://rhusiev.github.io/conspectus/README.html",
-                permanent: false,
-            },
-            {
                 source: "/github1",
                 destination: "https://github.com/rhusiev",
                 permanent: false,
