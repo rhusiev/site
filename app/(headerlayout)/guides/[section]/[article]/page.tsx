@@ -36,7 +36,7 @@ export default function Page({
     );
     return (
         <>
-            <div className="text-polar-4 mb-10 ml-10 mr-10 mt-10">
+            <div className="text-polar-4 mb-10 ml-10 mr-10 mt-10 font-bold text-xl">
                 <Link href="/guides" className="hover:underline">
                     guides
                 </Link>
